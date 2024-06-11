@@ -1,13 +1,12 @@
 .newsPage {
     display: flex;
-    justify-content: center;
     padding-top: 3%;
     color: rgb(0, 0, 87);
   }
   
   .rightContainer {
     width: 15%;
-    margin-left: 60%; 
+    margin-left: 70%; 
     box-sizing: border-box;
   }
   
@@ -17,7 +16,7 @@
     border-radius: 10px; 
     padding: 20px;
     box-shadow: 0 4px 8px rgba(16, 16, 16, 0.1); 
-    border: 2px solid black;
+    border: 1.5px solid black;
   }
   
   .locksBox h2 {
@@ -31,3 +30,7 @@
     margin-bottom: 0;
   }
   
+  .middleContainer {
+    width: 25%;
+    margin-left: 40%;
+  }

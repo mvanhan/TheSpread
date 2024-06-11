@@ -10,6 +10,11 @@ const News = () => {
                   <h2>Lock Streak:       0</h2> 
               </div>
           </div>
+          {/* <div className="middleContainer">
+              <div className="locksBox">
+                  <h2>Lock Streak:       0</h2> 
+              </div>
+          </div> */}
       </div>
   );
 }

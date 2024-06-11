@@ -2,7 +2,7 @@ import React from 'react';
 import './ScrollingText.css'; 
 
 const ScrollingText = () => {
-    const message = "Breaking News:    Jontay Porter is a fucking retard!!";
+    const message = "Breaking News:    Jontay Porter is a fucking idiot!!";
 
     return (
         <div className="scrollingTextContainer">
