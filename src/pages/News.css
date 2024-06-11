@@ -2,11 +2,27 @@
     display: flex;
     padding-top: 3%;
     color: rgb(0, 0, 87);
+    position: relative; 
+  }
+  
+  .leftContainer {
+    width: 25%;
+    position: absolute;
+    left: 8%; 
+    box-sizing: border-box;
+  }
+  
+  .middleContainer {
+    width: 32%;
+    position: absolute;
+    left: 38%; 
+    box-sizing: border-box;
   }
   
   .rightContainer {
     width: 15%;
-    margin-left: 70%; 
+    position: absolute;
+    left: 75%;
     box-sizing: border-box;
   }
   
@@ -30,7 +46,4 @@
     margin-bottom: 0;
   }
   
-  .middleContainer {
-    width: 25%;
-    margin-left: 40%;
-  }
+
