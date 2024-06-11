@@ -7,7 +7,7 @@ const News = () => {
       <div className="newsPage">
           <div className="rightContainer">
               <div className="locksBox">
-                  <h2>Lock Streak:      0</h2> 
+                  <h2>Lock Streak:       0</h2> 
               </div>
           </div>
       </div>

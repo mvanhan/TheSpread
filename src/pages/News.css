@@ -1,12 +1,13 @@
 .newsPage {
     display: flex;
     justify-content: center;
+    padding-top: 3%;
+    color: rgb(0, 0, 87);
   }
   
   .rightContainer {
     width: 15%;
-    margin-left: 70%; 
-    padding: 5% 0; 
+    margin-left: 60%; 
     box-sizing: border-box;
   }
   
