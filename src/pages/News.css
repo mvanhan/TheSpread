@@ -1,0 +1,32 @@
+.newsPage {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rightContainer {
+    width: 15%;
+    margin-left: 70%; 
+    padding: 5% 0; 
+    box-sizing: border-box;
+  }
+  
+  .locksBox {
+    width: 100%; 
+    background-color: white; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(16, 16, 16, 0.1); 
+    border: 2px solid black;
+  }
+  
+  .locksBox h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+  }
+  
+  .locksBox p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
