@@ -9,7 +9,7 @@
 .scrollingText {
   display: flex;
   white-space: nowrap;
-  animation: scrollText 10s linear infinite;
+  animation: scrollText 7.5s linear infinite;
 }
 
 .textContent {
@@ -21,9 +21,9 @@
 
 @keyframes scrollText {
   0% {
-    transform: translateX(-5%);
+    transform: translateX(-30%);
   }
   100% {
-    transform: translateX(120%);
+    transform: translateX(100%);
   }
 }
