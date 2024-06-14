@@ -1,19 +1,38 @@
-/* src/components/Poll.css */
+.poll-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .poll-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 45%; 
+    box-sizing: border-box;
+  }
+  
+  .poll-image {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 10px; 
+  }
 
-.poll {
-    text-align: center;
-    margin-top: 20px;
+  .poll2-image {
+    max-width: 140%; 
+    height: auto;
+    margin-bottom: 10px; 
   }
   
-  .vote-button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+  button {
+    margin-bottom: 10px; 
   }
   
-  .results {
-    margin-top: 20px;
-    font-size: 18px;
+  .poll-count {
+    font-weight: 500;
+    font-size: xx-large;
   }
-  

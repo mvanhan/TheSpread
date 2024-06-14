@@ -2,6 +2,7 @@ import React from 'react';
 import './News.css';
 import '../components/Poll';
 import Poll from '../components/Poll';
+import Poll2 from '../components/Poll2';
 
 const News = () => {
   return (
@@ -11,15 +12,20 @@ const News = () => {
                   <h2>Who do you fucking hate more?</h2> 
                   <Poll />
               </div>
+              <br></br>
+              <div className="locksBox">
+                  <h2>Who's uglier?</h2> 
+                  <Poll2 />
+              </div>
           </div>
           <div className="middleContainer">
               <div className="locksBox">
-                  <h2>Lock Streak: 1</h2> 
+                  <h2>Newzzz</h2> 
               </div>
           </div>
           <div className="rightContainer">
               <div className="locksBox">
-                  <h2>Lock Streak: 2</h2> 
+                  <h2>Lock Streak: 0</h2> 
               </div>
           </div>
       </div>
