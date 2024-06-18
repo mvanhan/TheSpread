@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebaseConfig'; 
 import { ref, onValue, update } from 'firebase/database';
-import './Poll.css'
+import './Poll.css';
 
 const Poll2 = () => {
   const [votes, setVotes] = useState({ optionA: 0, optionB: 0 });
+  const [userVote, setUserVote] = useState(localStorage.getItem('userVotePoll2'));
 
   useEffect(() => {
-    const votesRef = ref(db, 'poll2/pollData'); // Updated reference to poll2
+    const votesRef = ref(db, 'poll2/pollData');
     onValue(votesRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
@@ -17,9 +18,27 @@ const Poll2 = () => {
   }, []);
 
   const handleVote = (option) => {
-    const newVotes = { ...votes, [option]: votes[option] + 1 };
+    const newVotes = { ...votes };
+
+    if (userVote === option) {
+      
+      newVotes[option] = votes[option] - 1;
+      localStorage.removeItem('userVotePoll2');
+      setUserVote(null);
+    } else {
+      if (userVote) {
+        
+        newVotes[userVote] = votes[userVote] - 1;
+      }
+      
+      newVotes[option] = votes[option] + 1;
+      localStorage.setItem('userVotePoll2', option);
+      setUserVote(option);
+    }
+
+    
     const updates = {};
-    updates['/poll2/pollData'] = newVotes; // Updated reference to poll2
+    updates['/poll2/pollData'] = newVotes;
     update(ref(db), updates);
   };
 
@@ -27,12 +46,16 @@ const Poll2 = () => {
     <div className="poll-container">
       <div className="poll-item">
         <img src="/DerrickWhite.webp" alt="Option A" className="poll2-image" />
-        <button onClick={() => handleVote('optionA')}>Derrick</button>
+        <button onClick={() => handleVote('optionA')} className={userVote === 'optionA' ? 'active' : ''}>
+          {userVote === 'optionA' ? 'Not Derrick' : 'Derrick'}
+        </button>
         <p className="poll-count">{votes.optionA}</p>
       </div>
       <div className="poll-item">
         <img src="/HerbJones.png" alt="Option B" className="poll2-image" />
-        <button onClick={() => handleVote('optionB')}>Herb J</button>
+        <button onClick={() => handleVote('optionB')} className={userVote === 'optionB' ? 'active' : ''}>
+          {userVote === 'optionB' ? 'Not Herb J' : 'Herb J'}
+        </button>
         <p className="poll-count">{votes.optionB}</p>
       </div>
     </div>

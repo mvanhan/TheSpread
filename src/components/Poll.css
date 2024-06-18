@@ -30,6 +30,13 @@
   
   button {
     margin-bottom: 10px; 
+    background-color: white;
+  }
+
+  button.active {
+    font-weight: normal; 
+    margin-bottom: 10px; 
+    background-color: white;
   }
   
   .poll-count {

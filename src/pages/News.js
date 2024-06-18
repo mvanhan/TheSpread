@@ -17,6 +17,9 @@ const News = () => {
                   <h2>Who's uglier?</h2> 
                   <Poll2 />
               </div>
+              <br></br>
+              <div className="locksBox">
+              </div>
           </div>
           <div className="middleContainer">
               <div className="locksBox">
