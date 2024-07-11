@@ -23,12 +23,16 @@ const News = () => {
           </div>
           <div className="middleContainer">
               <div className="locksBox">
-                  <h2>Newzzz</h2> 
+                  <h2>I hate Jason Tatum's corny ass so damn much he's worse than fucking Klay.</h2> 
               </div>
           </div>
           <div className="rightContainer">
               <div className="locksBox">
-                  <h2>Lock Streak: 0</h2> 
+                  <h2>Lock OTD: Paul Skenes over K's</h2> 
+                  <br></br>
+                  <p>
+                    Livvy dunne fucked up when she flicked up with Burrow. Brewers are cooked.
+                  </p>
               </div>
           </div>
       </div>

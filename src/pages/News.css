@@ -33,7 +33,7 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(16, 16, 16, 0.1); 
     border: 1.5px solid rgb(0, 0, 87);;
-    text-align: center;
+    text-align: left;
   }
   
   .locksBox h2 {

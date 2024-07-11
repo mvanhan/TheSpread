@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
       <div className="navBar">
         <div className="navName">
-          "Logo"
+          <img src="/DailyPoopPFP.png" style={{ width: '10%', height: 'auto' }}></img>
         </div>
         <div className="navLinks">
             <NavLink to="/" exact activeClassName="active">News</NavLink>
