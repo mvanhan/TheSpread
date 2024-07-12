@@ -9,7 +9,7 @@ const NavBar = () => {
         </div>
         <div className="navLinks">
             <NavLink to="/" exact activeClassName="active">News</NavLink>
-            <NavLink to="/Betting" activeClassName="active">Betting</NavLink>
+            {/* <NavLink to="/Betting" activeClassName="active">Betting</NavLink> */}
             <NavLink to="/About" activeClassName="active">About</NavLink>
         </div>
       </div>

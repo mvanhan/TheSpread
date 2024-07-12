@@ -6,17 +6,38 @@
   }
   
   .leftContainer {
-    width: 25%;
+    width: 22%;
     position: absolute;
     left: 8%; 
     box-sizing: border-box;
   }
   
   .middleContainer {
-    width: 32%;
+    width: 35%;
     position: absolute;
-    left: 38%; 
+    left: 35%; 
     box-sizing: border-box;
+  }
+
+  .midBox {
+    width: 100%; 
+    background-color: white; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(16, 16, 16, 0.1); 
+    border: 1.5px solid rgb(0, 0, 87);
+    text-align: left;
+  }
+  
+  .midBox h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+  }
+  
+  .midBox p {
+    margin-top: 0;
+    margin-bottom: 0;
   }
   
   .rightContainer {
@@ -32,8 +53,8 @@
     border-radius: 10px; 
     padding: 20px;
     box-shadow: 0 4px 8px rgba(16, 16, 16, 0.1); 
-    border: 1.5px solid rgb(0, 0, 87);;
-    text-align: left;
+    border: 1.5px solid rgb(0, 0, 87);
+    text-align: center;
   }
   
   .locksBox h2 {
@@ -46,7 +67,4 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-
-  
-  
 

@@ -3,6 +3,7 @@ import './News.css';
 import '../components/Poll';
 import Poll from '../components/Poll';
 import Poll2 from '../components/Poll2';
+import Chat from '../components/Chat';
 
 const News = () => {
   return (
@@ -22,21 +23,25 @@ const News = () => {
               </div>
           </div>
           <div className="middleContainer">
-              <div className="locksBox">
+              <div className="midBox">
                   <h2>I hate Jason Tatum's corny ass so damn much he's worse than fucking Klay.</h2> 
               </div>
           </div>
           <div className="rightContainer">
               <div className="locksBox">
-                  <h2>Lock OTD: Paul Skenes over K's</h2> 
-                  <br></br>
-                  <p>
-                    Livvy dunne fucked up when she flicked up with Burrow. Brewers are cooked.
-                  </p>
+                  <h2>Lock Streak: 1</h2> 
               </div>
+              <br></br>
+              <div className="locksBox">
+                  <h2>LOTD 7/12</h2>
+                  <br></br>
+                  <p>P000000P</p>
+              </div>
+              <Chat />
           </div>
       </div>
   );
 }
 
 export default News;
+

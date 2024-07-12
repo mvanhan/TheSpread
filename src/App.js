@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import News from './pages/News';
 import ScrollingText from './components/ScrollingText';
 
+
 function App() {
   return (
     <>
@@ -23,3 +24,4 @@ function App() {
 }
 
 export default App;
+
