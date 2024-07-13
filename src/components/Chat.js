@@ -2,12 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebaseConfig';
 import { ref, push, onValue, serverTimestamp } from "firebase/database";
+import { generateRandomUsername } from './randomUsername';
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
+  const [username, setUsername] = useState('');
 
   useEffect(() => {
+    const newUsername = generateRandomUsername();
+    setUsername(newUsername);
+
     const messagesRef = ref(db, 'messages');
     onValue(messagesRef, (snapshot) => {
       const messagesArray = [];
@@ -21,8 +26,9 @@ const Chat = () => {
 
   const addMessage = (e) => {
     e.preventDefault();
-    if (newMessage.trim() !== '') {
+    if (newMessage.trim() !== '' && username !== '') {
       push(ref(db, 'messages'), {
+        username: username,
         text: newMessage,
         timestamp: serverTimestamp()
       });
@@ -44,10 +50,9 @@ const Chat = () => {
         <button type="submit">Send</button>
       </form>
       <div>
-        {messages.map(({ id, text, timestamp }) => (
+        {messages.map(({ id, username, text }) => (
           <div key={id}>
-            <p>{text}</p>
-            <small>{new Date(timestamp).toLocaleString()}</small>
+            <p><strong>{username}:</strong> {text}</p>
           </div>
         ))}
       </div>

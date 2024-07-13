@@ -37,7 +37,10 @@ const News = () => {
                   <br></br>
                   <p>P000000P</p>
               </div>
-              <Chat />
+              <br></br>
+              <div className='midBox'>
+                <Chat />
+              </div>
           </div>
       </div>
   );
