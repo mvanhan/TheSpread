@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../firebaseConfig';
 import { ref, push, onValue, serverTimestamp } from "firebase/database";
 import { generateRandomUsername } from './randomUsername';
-import './Chat.css'; // Import the CSS file
+import './Chat.css'; 
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
