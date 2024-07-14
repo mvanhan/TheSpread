@@ -3,16 +3,14 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../firebaseConfig';
 import { ref, push, onValue, serverTimestamp } from "firebase/database";
 import { generateRandomUsername } from './randomUsername';
+import './Chat.css'; // Import the CSS file
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
-  const [username, setUsername] = useState('');
+  const [username, setUsername] = useState(generateRandomUsername());
 
   useEffect(() => {
-    const newUsername = generateRandomUsername();
-    setUsername(newUsername);
-
     const messagesRef = ref(db, 'messages');
     onValue(messagesRef, (snapshot) => {
       const messagesArray = [];
@@ -37,9 +35,16 @@ const Chat = () => {
   };
 
   return (
-    <div>
+    <div className="chat-container">
       <h2>Chat</h2>
-      <form onSubmit={addMessage}>
+      <div className="chat-box">
+        {messages.map(({ id, username, text }) => (
+          <div key={id} className="chat-message">
+            <p><strong>{username}:</strong> {text}</p>
+          </div>
+        ))}
+      </div>
+      <form onSubmit={addMessage} className="chat-form">
         <input
           type="text"
           value={newMessage}
@@ -49,13 +54,6 @@ const Chat = () => {
         />
         <button type="submit">Send</button>
       </form>
-      <div>
-        {messages.map(({ id, username, text }) => (
-          <div key={id}>
-            <p><strong>{username}:</strong> {text}</p>
-          </div>
-        ))}
-      </div>
     </div>
   );
 };
