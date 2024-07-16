@@ -49,7 +49,7 @@ const News = () => {
               </div>
               <br></br>
               <div className="locksBox">
-                  <h2>LOTD 7/12</h2>
+                  <h2>LOTD 7/16</h2>
                   <br></br>
                   <p>NL Moneyline +100</p>
               </div>
