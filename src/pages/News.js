@@ -10,7 +10,7 @@ const News = () => {
       <div className="newsPage">
           <div className="leftContainer">
               <div className="pollBox">
-                  <h2>Who do you fucking hate more?</h2> 
+                  <h2>Who Winning the All Star Game?</h2> 
                   <Poll />
               </div>
               <br></br>
@@ -52,7 +52,7 @@ const News = () => {
               <div className="locksBox">
                   <h2>LOTD 7/12</h2>
                   <br></br>
-                  <p>NL Moneyline</p>
+                  <p>NL Moneyline +100</p>
               </div>
               <br></br>
               <div className='midBox'>
