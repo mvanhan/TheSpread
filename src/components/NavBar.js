@@ -8,7 +8,7 @@ const NavBar = () => {
           <img src="/DailyPoopPFP.png" style={{ width: '10%', height: 'auto' }}></img>
         </div>
         <div className="navTitle">
-            <h1>The Daily Poop</h1>
+            <h1>The Daily Poop: Sports Blog</h1>
         </div>
         <div className="navLinks">
             <NavLink to="/" exact activeClassName="active">News</NavLink>
