@@ -37,8 +37,7 @@ const News = () => {
               </div>
               <br></br>
               <div className="midBox">
-                  <h2>Why Rory Mcllroy will finally win another Major
-                  .</h2>
+                  <h2>Why Rory Mcllroy will finally win another Major</h2>
                   <br></br>
                   <p>Rory’s wife has called for a divorce one month before The Open. Not only has Rory been more dialed than usual in recent tournaments, but this bitch actually had the nerve to show up to the tournament. Rory isn’t fucking around and is about to get a W which means a massive W for the golf world. #FuckLIV
                   </p>
