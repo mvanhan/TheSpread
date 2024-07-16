@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(0, 0, 87);
-  padding: 10px 20px;
+  padding: 1px 20px;
 }
 
 .navName {
@@ -16,7 +16,7 @@
 .navTitle {
   font-weight: bold;
   color: white;
-  margin-right: 26%;
+  margin-right: 24%;
 }
 
 .navLinks {
@@ -27,7 +27,7 @@
 .navLinks a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 23px;
   transition: color 0.3s ease;
 }
 
