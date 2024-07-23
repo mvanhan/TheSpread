@@ -41,16 +41,16 @@ const Poll = () => {
   return (
     <div className="poll-container">
       <div className="poll-item">
-        <img src="/Skenes.png" alt="Option A" className="poll-image" />
+        <img src="/CaitlinClark.png" alt="Option A" className="poll-image" />
         <button onClick={() => handleVote('optionA')} className={userVote === 'optionA' ? 'active' : ''}>
-          {userVote === 'optionA' ? 'Not NL' : 'NL'}
+          {userVote === 'optionA' ? 'Not Caitlin' : 'Caitlin'}
         </button>
         <p className='poll-count'>{votes.optionA}</p>
       </div>
       <div className="poll-item">
-        <img src="/Judge.png" alt="Option B" className="poll-image" />
+        <img src="/Bronny.png" alt="Option B" className="poll-image" />
         <button onClick={() => handleVote('optionB')} className={userVote === 'optionB' ? 'active' : ''}>
-          {userVote === 'optionB' ? 'Not AL' : 'AL'}
+          {userVote === 'optionB' ? 'Not Bronny' : 'Bronny'}
         </button>
         <p className='poll-count'>{votes.optionB}</p>
       </div>
