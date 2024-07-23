@@ -63,9 +63,9 @@ const News = () => {
               </div>
               <br></br>
               <div className="locksBox">
-                  <h2>LOTD ...</h2>
+                  <h2>LOTD: Cardinals ML</h2>
                   <br></br>
-                  <p>...</p>
+                  <p>Skenes' ego too big- nuff said</p>
               </div>
               <br></br>
               <div className='midBox'>
