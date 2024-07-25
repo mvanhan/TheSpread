@@ -21,6 +21,20 @@ const News = () => {
               <br></br>
           </div>
           <div className="middleContainer">
+          <div className="midBox">
+                  <h2>Team USA in Trouble?</h2>
+                  <br></br>
+                  <p>Team USA has struggled in recent games including beating South Sudan by one point. Where the fuck even is South Sudan? Lecarry is the only reason we have won the last two games. If Bron decides to dabble into a little too much wine on a Taco Tuesday we might not even medal. 
+                  </p>
+              </div>
+              <br></br>
+          <div className="midBox">
+                  <h2>Lincoln Riley WILL be Fired by 2025 Season</h2>
+                  <br></br>
+                  <p>Riley at the Big 10 media day admitted “Yea I didn’t want to go to the SEC i’d be scared shitless” and also admitted they need to take Notre Dame (historic rivalry) off their schedule for them to ever have a chance at a Natty. We all know this won’t happen anyways because Lincoln can’t put a defense on the field and doesn’t have Caleb to carry him anymore. 
+                  </p>
+              </div>
+              <br></br>
               <div className="midBox">
                   <h2>The Secret Behind the Heat’s Summer League Title: A Snow Bunny</h2>
                   <br></br>
@@ -59,13 +73,13 @@ const News = () => {
           </div>
           <div className="rightContainer">
               <div className="locksBox">
-                  <h2>Lock Streak: 1</h2> 
+                  <h2>Lock Streak: 0</h2> 
               </div>
               <br></br>
               <div className="locksBox">
-                  <h2>LOTD: Cardinals ML</h2>
+                  <h2>LOTD: Padres ML</h2>
                   <br></br>
-                  <p>Cards are rollin- nuff said</p>
+                  <p>WTF is a National anyways?!</p>
               </div>
               <br></br>
               <div className='midBox'>
