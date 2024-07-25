@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
       <div className="navBar">
         <div className="navName">
-          <img src="/DailyPoopPFP.png" style={{ width: '10%', height: 'auto' }}></img>
+          <img src="/pfp.jpeg" style={{ width: '15%', height: 'auto' }}></img>
         </div>
         <div className="navTitle">
             <h1>The Daily Poop: Sports Blog</h1>
