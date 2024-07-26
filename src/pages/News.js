@@ -73,11 +73,11 @@ const News = () => {
           </div>
           <div className="rightContainer">
               <div className="locksBox">
-                  <h2>Lock Streak: 0</h2> 
+                  <h2>Lock Streak: 1</h2> 
               </div>
               <br></br>
               <div className="locksBox">
-                  <h2>LOTD: Padres ML</h2>
+                  <h2>LOTD: Cardinals ML</h2>
                   <br></br>
                   <p>WTF is a National anyways?!</p>
               </div>
