@@ -1,7 +1,6 @@
-.newsPage {
+/* .newsPage {
     display: flex;
     padding-top: 2%;
-    /* color: rgb(0, 0, 87); */
     color: rgb(122, 94, 57);
     position: relative; 
   }
@@ -26,7 +25,6 @@
     border-radius: 10px; 
     padding: 20px;
     box-shadow: 0 4px 8px rgba(16, 16, 16, 0.1); 
-    /* border: 1.5px solid rgb(0, 0, 87); */
     border: 1.5px solid rgb(122, 94, 57);
     text-align: left;
   }
@@ -91,4 +89,112 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+ */
 
+ .newsPage {
+  display: flex;
+  padding-top: 2%;
+  color: rgb(122, 94, 57);
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.leftContainer,
+.middleContainer,
+.rightContainer {
+  box-sizing: border-box;
+}
+
+.leftContainer {
+  width: 22%;
+  position: absolute;
+  left: 8%;
+}
+
+.middleContainer {
+  width: 35%;
+  position: absolute;
+  left: 35%;
+}
+
+.midBox {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(16, 16, 16, 0.1);
+  border: 1.5px solid rgb(122, 94, 57);
+  text-align: left;
+}
+
+.midBox h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: pre-wrap;
+}
+
+.midBox p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rightContainer {
+  width: 15%;
+  position: absolute;
+  left: 75%;
+}
+
+.locksBox,
+.pollBox {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(16, 16, 16, 0.1);
+  border: 1.5px solid rgb(122, 94, 57);
+  text-align: center;
+}
+
+.locksBox h2,
+.pollBox h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: pre-wrap;
+}
+
+.locksBox p,
+.pollBox p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: larger;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .newsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto; /* Allows vertical scrolling */
+    padding: 10px; /* Add some padding for better appearance */
+  }
+
+  .leftContainer,
+  .rightContainer,
+  .middleContainer {
+    width: 100%; /* Full width on mobile */
+    position: relative; /* Reset positioning */
+    margin-bottom: 20px; /* Space between containers */
+  }
+
+  .middleContainer {
+    order: -1; /* Move the middle container to the top */
+  }
+
+  .midBox,
+  .locksBox,
+  .pollBox {
+    padding: 10px;
+  }
+}
