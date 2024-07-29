@@ -77,9 +77,9 @@ const News = () => {
               </div>
               <br></br>
               <div className="locksBox">
-                  <h2>LOTD: Cardinals ML</h2>
+                  <h2>LOTD: Phillies ML</h2>
                   <br></br>
-                  <p>WTF is a National anyways?!</p>
+                  <p>Cooler jersey's tbh</p>
               </div>
               <br></br>
               <div className='midBox'>
