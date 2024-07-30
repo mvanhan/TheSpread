@@ -21,14 +21,28 @@ const News = () => {
               <br></br>
           </div>
           <div className="middleContainer">
-          <div className="midBox">
+            <div className="midBox">
+                  <h2>Expectations of MLB Trade Deadline</h2>
+                  <br></br>
+                  <p>Honestly, no big deals are going to happen and even if they did you have no fucking clue who they are. 26 days till college football ladies and gentleman. 
+                  </p>
+              </div>
+              <br></br>
+            <div className="midBox">
+                  <h2>Novak and Rafa’s Last Dance</h2>
+                  <br></br>
+                  <p>Monday at the Olympics Djokovic and Nadal faced off for one last time. Novak easily handled business 6-1,6-4. It’s sad to see the second of the Big 3 to fall off after two decades of dominance. And no one likes Novak so thankfully Alcarez will kick his ass again. 
+                  </p>
+              </div>
+              <br></br>
+            <div className="midBox">
                   <h2>Team USA in Trouble?</h2>
                   <br></br>
                   <p>Team USA has struggled in recent games including beating South Sudan by one point. Where the fuck even is South Sudan? Lecarry is the only reason we have won the last two games. If Bron decides to dabble into a little too much wine on a Taco Tuesday we might not even medal. 
                   </p>
               </div>
               <br></br>
-          <div className="midBox">
+            <div className="midBox">
                   <h2>Lincoln Riley WILL be Fired by 2025 Season</h2>
                   <br></br>
                   <p>Riley at the Big 10 media day admitted “Yea I didn’t want to go to the SEC i’d be scared shitless” and also admitted they need to take Notre Dame (historic rivalry) off their schedule for them to ever have a chance at a Natty. We all know this won’t happen anyways because Lincoln can’t put a defense on the field and doesn’t have Caleb to carry him anymore. 
