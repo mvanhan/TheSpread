@@ -87,13 +87,13 @@ const News = () => {
           </div>
           <div className="rightContainer">
               <div className="locksBox">
-                  <h2>Lock Streak: 1</h2> 
+                  <h2>Lock Streak: 2</h2> 
               </div>
               <br></br>
               <div className="locksBox">
-                  <h2>LOTD: Phillies ML</h2>
+                  <h2>LOTD: Royals ML</h2>
                   <br></br>
-                  <p>Cooler jersey's tbh</p>
+                  <p>White Sox just got robbed at gun point and they blow</p>
               </div>
               <br></br>
               <div className='midBox'>
