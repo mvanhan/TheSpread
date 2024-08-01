@@ -62,6 +62,7 @@ const News = () => {
                   <p>Riley at the Big 10 media day admitted “Yea I didn’t want to go to the SEC i’d be scared shitless” and also admitted they need to take Notre Dame (historic rivalry) off their schedule for them to ever have a chance at a Natty. We all know this won’t happen anyways because Lincoln can’t put a defense on the field and doesn’t have Caleb to carry him anymore. 
                   </p>
               </div>
+              <br></br>
           </div>
           <div className="rightContainer">
               <div className="locksBox">
