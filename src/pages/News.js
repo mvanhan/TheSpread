@@ -22,6 +22,20 @@ const News = () => {
           </div>
           <div className="middleContainer">
             <div className="midBox">
+                  <h2>Suni Lee Bronze on the Bar but Gold in our Hearts</h2>
+                  <br></br>
+                  <p>Suni Lee finished bronze in the uneven bars event in gymnastics but the world is truly sleeping on her. She might not be Simone but she’s bad as hell and is extremely underrated. 
+                  </p>
+              </div>
+              <br></br>
+            <div className="midBox">
+                  <h2>USA 3v3 Basketball...</h2>
+                  <br></br>
+                  <p>Could we seriously not just go get three ass nba players. I mean you're telling me we can’t even medal. I guarantee if you called  Kyle Singler he’d get a boner immediately and win us the gold. Or any g league player for that matter. 
+                  </p>
+              </div>
+              <br></br>
+            <div className="midBox">
                   <h2>USA Lacking in Gold?</h2>
                   <br></br>
                   <p>Heading into Thursday at the Olympics, the United States currently only has 6 gold medals, 5 behind the leader of China. The US does lead the total medal count but gold is all that matters tbh. 
